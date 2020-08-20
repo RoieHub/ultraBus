@@ -3,4 +3,4 @@ project(TahoBus)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(TahoBus main.cpp edge_data.h node_data.h)
+add_executable(TahoBus main.cpp edge_data.h node_data.h graph.h)
