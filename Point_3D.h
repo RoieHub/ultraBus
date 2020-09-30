@@ -5,11 +5,12 @@
 #ifndef TAHOBUS_POINT_3D_H
 #define TAHOBUS_POINT_3D_H
 #include<iostream>
+#include <tuple>
 class Point_3D
 {
 private:
 // Member
-std::tuple<double,double,double> _location   ; // Need to find what the bug
+std::tuple<double,double,double> _location; // Need to find what the bug
 
     bool set_first(double x);
 

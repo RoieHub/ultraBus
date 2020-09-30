@@ -89,6 +89,9 @@
 		<Unit filename="C:/Users/97252/CLionProjects/ultraBus/graph.h">
 			<Option target="TahoBus"/>
 		</Unit>
+		<Unit filename="C:/Users/97252/CLionProjects/ultraBus/graph_algorithem.h">
+			<Option target="TahoBus"/>
+		</Unit>
 		<Unit filename="C:/Users/97252/CLionProjects/ultraBus/main.cpp">
 			<Option target="TahoBus"/>
 		</Unit>
