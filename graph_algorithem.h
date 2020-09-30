@@ -1,5 +1,5 @@
 //
-// Created by 97252 on 30/09/2020.
+// Created by Roie Malykin on 30/09/2020.
 //
 
 #ifndef TAHOBUS_GRAPH_ALGORITHEM_H
