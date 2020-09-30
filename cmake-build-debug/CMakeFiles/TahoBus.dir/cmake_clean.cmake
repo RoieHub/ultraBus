@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/TahoBus.dir/main.cpp.obj"
+  "CMakeFiles/TahoBus.dir/myNode.cpp.obj"
   "TahoBus.exe"
   "TahoBus.exe.manifest"
   "TahoBus.pdb"

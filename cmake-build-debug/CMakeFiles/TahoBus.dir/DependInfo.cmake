@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/97252/CLionProjects/ultraBus/main.cpp" "C:/Users/97252/CLionProjects/ultraBus/cmake-build-debug/CMakeFiles/TahoBus.dir/main.cpp.obj"
+  "C:/Users/97252/CLionProjects/ultraBus/myNode.cpp" "C:/Users/97252/CLionProjects/ultraBus/cmake-build-debug/CMakeFiles/TahoBus.dir/myNode.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

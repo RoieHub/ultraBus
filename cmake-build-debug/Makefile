@@ -169,6 +169,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\TahoBus.dir\build.make CMakeFiles/TahoBus.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+myNode.obj: myNode.cpp.obj
+
+.PHONY : myNode.obj
+
+# target to build an object file
+myNode.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TahoBus.dir\build.make CMakeFiles/TahoBus.dir/myNode.cpp.obj
+.PHONY : myNode.cpp.obj
+
+myNode.i: myNode.cpp.i
+
+.PHONY : myNode.i
+
+# target to preprocess a source file
+myNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TahoBus.dir\build.make CMakeFiles/TahoBus.dir/myNode.cpp.i
+.PHONY : myNode.cpp.i
+
+myNode.s: myNode.cpp.s
+
+.PHONY : myNode.s
+
+# target to generate assembly for a file
+myNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\TahoBus.dir\build.make CMakeFiles/TahoBus.dir/myNode.cpp.s
+.PHONY : myNode.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -181,6 +208,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... myNode.obj
+	@echo ... myNode.i
+	@echo ... myNode.s
 .PHONY : help
 
 
