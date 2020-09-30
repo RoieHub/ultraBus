@@ -13,6 +13,8 @@
 #include <iostream>
 #include <string>
 #include <stdexcept>
+#include "Point_3D.h"
+
 
 Class node_data
         {
@@ -28,12 +30,12 @@ Class node_data
                  *
                  * @return
                  */
-                virtual  std::tuple<double,double,double> getLocation() const = 0;
+                virtual  Point_3D getLocation() const = 0;
                 /** Allows changing this node's location.
                  *
                  * @param p - new new location  (position) of this node.
                  */
-                virtual void setLocation(std::tuple<double,double,double> p) = 0;
+                virtual void setLocation(Point_3D p) = 0;
                 /**
                  * Return the weight associated with this node.
                  * @return
