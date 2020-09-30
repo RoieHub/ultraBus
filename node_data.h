@@ -16,7 +16,7 @@
 #include "Point_3D.h"
 
 
-Class node_data
+class node_data
         {
                 public:
                 /**

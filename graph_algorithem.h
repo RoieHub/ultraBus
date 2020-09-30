@@ -25,41 +25,41 @@
 
 
 class graph_algorithms {
-public:
+        public:
 
         /**
          * Init this set of algorithms on the parameter - graph.
          * @param g
          */
-       void init(graph g);
+      virtual void init(graph g) = 0 ;
         /**
          * Compute a deep copy of this graph.
          * @return
          */
-        graph copy();
+        virtual  graph copy() = 0;
         /**
          * Init a graph from file
          * @param file_name
          */
-         void init(std::string file_name);
+        virtual void init(std::string file_name) = 0;
         /** Saves the graph to a file.
          *
          * @param file_name
          */
-         void save(std::string file_name);
+        virtual void save(std::string file_name) = 0;
 /**
  * Returns true if and only if (iff) there is a valid path from EVREY node to each
  * other node. NOTE: assume directional graph - a valid path (a-->b) does NOT imply a valid path (b-->a).
  * @return
  */
-         bool isConnected();
+        virtual bool isConnected() = 0;
         /**
          * returns the length of the shortest path between src to dest
          * @param src - start node
          * @param dest - end (target) node
          * @return
          */
-         double shortestPathDist(int src, int dest);
+        virtual double shortestPathDist(int src, int dest) = 0;
         /**
          * returns the the shortest path between src to dest - as an ordered List of nodes:
          * src--> n1-->n2-->...dest
@@ -68,7 +68,7 @@ public:
          * @param dest - end (target) node
          * @return
          */
-         std::vector<node_data> shortestPath(int src, int dest);
+        virtual std::vector<node_data> shortestPath(int src, int dest) = 0;
         /**
          * computes a relatively short path which visit each node in the targets List.
          * Note: this is NOT the classical traveling salesman problem,
@@ -77,7 +77,7 @@ public:
          * @param targets
          * @return
          */
-        std::vector<int> TSP(std::vector<int> targets);
+        virtual std::vector<int> TSP(std::vector<int> targets) = 0;
 }
 
 #endif //TAHOBUS_GRAPH_ALGORITHEM_H
