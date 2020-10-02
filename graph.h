@@ -13,7 +13,7 @@
 #include <stdlib.h>
 #include "edge_data.h"
 #include "node_data.h"
-        Class graph
+        class graph
         {
         /**
          * return the node_data by the node_id,
