@@ -83,6 +83,9 @@
 		<Unit filename="C:/Users/97252/CLionProjects/ultraBus/Point_3D.h">
 			<Option target="TahoBus"/>
 		</Unit>
+		<Unit filename="C:/Users/97252/CLionProjects/ultraBus/doctest.h">
+			<Option target="TahoBus"/>
+		</Unit>
 		<Unit filename="C:/Users/97252/CLionProjects/ultraBus/edge_data.h">
 			<Option target="TahoBus"/>
 		</Unit>
